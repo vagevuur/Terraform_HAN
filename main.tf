@@ -22,7 +22,7 @@ resource "proxmox_qemu" "test_server" {
     target_node = var.proxmox_host
     clone = var.template_name # Moet hier de juiste ISO staan???
     agent = 1
-    os_type = "clooud-init"
+    os_type = "cloud-init"
     cores = 2
     sockets = 1
     cpu = "host"
