@@ -8,7 +8,7 @@ terraform {
 }
 
 provider "proxmox" {
-    # url is the hostname 
+    # url is the hostname | api2 en json are recommended 
     pm_api_url = "https://10.1.0.132:8006/api2/json"
     # api token id is in form of: <username>@pam!<tokenId>
     pm_api_token_id = "ed@pam!edvagevuur"
